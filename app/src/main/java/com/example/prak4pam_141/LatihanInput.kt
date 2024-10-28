@@ -27,7 +27,7 @@ import androidx.compose.ui.unit.dp
 
 @Preview(showBackground = true)
 @Composable
-fun Input(modifier: Modifier = Modifier) {
+fun LatihanInput(modifier: Modifier = Modifier) {
 
     var Nama by remember { mutableStateOf("") }
     var Email by remember { mutableStateOf("") }
